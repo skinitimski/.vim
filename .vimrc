@@ -17,6 +17,14 @@ set t_Co=256
 
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
+function! StartUp()
+    if 0 == argc()
+        NERDTreeToggle
+    end
+endfunction
+
+au VimEnter * call StartUp()
+
 colorscheme timski
 
 map <C-n> :NERDTreeToggle<CR>
