@@ -21,3 +21,6 @@ colorscheme timski
 
 map <C-n> :NERDTreeToggle<CR>
 
+" Let airline show multiple buffers
+let g:airline#extensions#tabline#enabled = 1
+
