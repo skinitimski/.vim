@@ -27,7 +27,7 @@ au VimEnter * call StartUp()
 
 colorscheme timski
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeFocus<CR>
 
 " Let airline show multiple buffers
 let g:airline#extensions#tabline#enabled = 1
