@@ -32,3 +32,5 @@ map <C-n> :NERDTreeFocus<CR>
 " Let airline show multiple buffers
 let g:airline#extensions#tabline#enabled = 1
 
+:nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+
