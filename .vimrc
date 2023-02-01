@@ -16,6 +16,7 @@ syntax on
 set t_Co=256
 
 au FileType yaml setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
+au FileType jinja setlocal tabstop=2 expandtab shiftwidth=2 softtabstop=2
 
 function! StartUp()
     if 0 == argc()
@@ -36,3 +37,4 @@ let g:airline#extensions#tabline#enabled = 1
 
 autocmd BufWritePre * %s/\s\+$//e
 
+let NERDTreeShowHidden=1
