@@ -5,6 +5,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set hlsearch
 
 set autoindent
 set pastetoggle=<F3>
@@ -29,6 +30,7 @@ au VimEnter * call StartUp()
 colorscheme timski
 
 map <C-n> :NERDTreeFocus<CR>
+map <C-m> :noh<CR>
 
 " Let airline show multiple buffers
 let g:airline#extensions#tabline#enabled = 1
