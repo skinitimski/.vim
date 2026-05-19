@@ -1,12 +1,12 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git@github.com:skinitimski/nerdtree.git
 [submodule "bundle/vim-nerdtree-tabs"]
 	path = bundle/vim-nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs.git
+	url = git@github.com:skinitimski/vim-nerdtree-tabs.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline.git
+	url = git@github.com:skinitimski/vim-airline.git
 [submodule "bundle/vim-jinja2-syntax"]
 	path = bundle/vim-jinja2-syntax
-	url = git@github.com:Glench/Vim-Jinja2-Syntax.git
+	url = git@github.com:skinitimski/Vim-Jinja2-Syntax.git
